@@ -45,3 +45,7 @@ flag-icons 7.5.0, MIT. SVG files bundled locally under `assets/flags/`; licence 
 ## Contact photograph — 21 October 2026
 
 `assets/contact-conversation.webp` was generated with OpenAI image generation for this site. A fictional representative telephone communication scene, not a photograph of an actual OrphaRx employee or office. Served locally as WebP, with no reference photograph used.
+
+## Multichannel contact image — 21 October 2026
+
+`assets/contact-channels.webp` was generated with OpenAI image generation for this website. A fictional workspace depicting email, messaging and online calls through a laptop, smartphone and headset. No reference image was used. This replaces the telephone-only image on both contact pages and does not depict actual company facilities.
