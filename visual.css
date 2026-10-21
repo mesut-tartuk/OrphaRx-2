@@ -17,3 +17,40 @@
   .page-partnerships .page-head-image{height:300px}
   .page-partnerships .page-head-image picture img{object-position:center center}
 }
+
+/* Founders: typography and biographies take precedence over decorative imagery. */
+.page-founders .founders-intro{padding:80px 0 64px;min-height:0;display:grid;grid-template-columns:1.15fr 1fr;column-gap:80px;align-items:end}
+.page-founders .founders-intro .eyebrow{grid-column:1/-1;margin-bottom:28px}
+.page-founders .founders-intro h1{font-size:clamp(2.8rem,4.6vw,4.5rem);margin:0;line-height:1.12}
+.page-founders .founders-intro .lead{margin:0;padding:0;font-size:1.05rem;line-height:1.8;max-width:540px}
+.page-founders .founders{padding-top:12px;padding-bottom:70px}
+.page-founders .founder{grid-template-columns:1fr 1.4fr;gap:70px;padding:42px 0}
+.page-founders .founder .index{margin-bottom:12px;font-size:.75rem;letter-spacing:.18em}
+.page-founders .founder h2{font-size:2rem;margin-bottom:12px}
+.page-founders .founder-name .eyebrow{font-size:.68rem;letter-spacing:.16em;margin:0}
+.page-founders .bio-lead{font-size:1.05rem;line-height:1.8;margin-bottom:16px}
+.page-founders .cta:before{display:none}
+@media(max-width:950px){.page-founders .founders-intro{column-gap:35px}.page-founders .founder{gap:35px}}
+@media(max-width:650px){
+.page-founders .founders-intro{grid-template-columns:1fr;gap:20px;padding:45px 0 36px}
+.page-founders .founders-intro .eyebrow{margin:0}
+.page-founders .founders-intro h1{font-size:2.8rem}
+.page-founders .founders-intro .lead{font-size:1rem}
+.page-founders .founder{grid-template-columns:1fr;gap:22px;padding:32px 0}
+.page-founders .founders{padding-bottom:45px}
+}
+
+/* Founders card preview: equal prominence for all four biographies. */
+.page-founders .founders{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding-top:40px;padding-bottom:80px;align-items:start}
+.page-founders .founder{display:flex;flex-direction:column;gap:28px;padding:36px 38px 24px;background:#fff;border:1px solid var(--line);border-top:3px solid var(--teal);min-width:0}
+.page-founders .founder-name{position:relative;padding-right:34px}
+.page-founders .founder .index{position:absolute;right:0;top:6px;margin:0;color:#6e8c99}
+.page-founders .founder h2{margin-bottom:12px;font-size:2rem}
+.page-founders .founder>div:last-child{display:flex;flex-direction:column;flex:1}
+.page-founders .bio-lead{min-height:114px;margin-bottom:20px;font-size:1rem;line-height:1.75}
+.page-founders .founder details{margin-top:auto}
+.page-founders .founder summary{margin-bottom:0;padding:16px 0;border-bottom:0;border-top:1px solid var(--line)}
+.page-founders .founder details[open] summary{margin-bottom:20px}
+.page-founders .founder details p{font-size:.95rem;line-height:1.8}
+@media(max-width:950px){.page-founders .founder{padding:28px 26px 20px}.page-founders .bio-lead{min-height:168px}}
+@media(max-width:650px){.page-founders .founders{grid-template-columns:1fr;gap:20px;padding-top:28px;padding-bottom:50px}.page-founders .founder{padding:28px 24px 16px;gap:24px}.page-founders .founder h2{font-size:1.8rem}.page-founders .bio-lead{min-height:0}}
