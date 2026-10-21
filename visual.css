@@ -7,3 +7,13 @@
 
 /* Keep the focus image rectangular at every screen width. */
 .page-focus .page-head-image{border-radius:0}
+
+/* Responsive user-supplied imagery for partnerships only. */
+.page-partnerships .page-head-image{border-radius:0}
+.page-partnerships .page-head-image picture,
+.page-partnerships .page-head-image picture img{display:block;width:100%;height:100%}
+.page-partnerships .page-head-image picture img{object-fit:cover;object-position:61% center}
+@media(max-width:650px){
+  .page-partnerships .page-head-image{height:300px}
+  .page-partnerships .page-head-image picture img{object-position:center center}
+}

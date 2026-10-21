@@ -37,3 +37,7 @@ flag-icons 7.5.0, MIT. SVG files bundled locally under `assets/flags/`; licence 
 
 ## Visual redesign assets
 `assets/human.webp` and `assets/research.webp` were created using built-in OpenAI image generation for this redesign. Illustrative fictional scenes; not company facilities or patients. Briefs: compassionate adult hands in warm natural light with navy and teal tones; cinematic macro of unlabelled pharmaceutical research vials with teal refractions. No reference photographs or stock assets used.
+
+## User-supplied partnerships imagery — 21 October 2026
+
+`assets/orpharx-partnerships-desktop.webp` (1774 × 887) and `assets/orpharx-partnerships-mobile.webp` (800 × 1000) were supplied by the user in `orpharx-partnerships-package.zip` for the partnerships page. The original files are bundled unchanged and selected responsively. They depict a representative handshake and global connections; no claim is made that they document an actual OrphaRx agreement. No independent third-party licence or ownership verification was provided in the package.
