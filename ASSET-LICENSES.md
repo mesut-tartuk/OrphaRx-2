@@ -41,3 +41,7 @@ flag-icons 7.5.0, MIT. SVG files bundled locally under `assets/flags/`; licence 
 ## User-supplied partnerships imagery — 21 October 2026
 
 `assets/orpharx-partnerships-desktop.webp` (1774 × 887) and `assets/orpharx-partnerships-mobile.webp` (800 × 1000) were supplied by the user in `orpharx-partnerships-package.zip` for the partnerships page. The original files are bundled unchanged and selected responsively. They depict a representative handshake and global connections; no claim is made that they document an actual OrphaRx agreement. No independent third-party licence or ownership verification was provided in the package.
+
+## Contact photograph — 21 October 2026
+
+`assets/contact-conversation.webp` was generated with OpenAI image generation for this site. A fictional representative telephone communication scene, not a photograph of an actual OrphaRx employee or office. Served locally as WebP, with no reference photograph used.
